@@ -1,0 +1,62 @@
+select_origin: csv
+files_origin: ""
+nodes_origin: "./nodes.csv"
+links_origin: "./links.csv"
+nodes_online: ""
+links_online: ""
+images_origin: "./img/"
+export_target: "./"
+history: false
+focus_max: 2
+record_types:
+  undefined:
+    fill: "#858585"
+    stroke: "#858585"
+  Otlet:
+    fill: "#f4a460"
+    stroke: "#f4a460"
+  Person:
+    fill: "blank_person.jpg"
+    stroke: "#66b3de"
+  Organization:
+    fill: "blank_organization.jpg"
+    stroke: "#9a3c9a"
+  Event:
+    fill: "blank_event.jpg"
+    stroke: "#61AC61"
+  Work:
+    fill: "blank_work.jpg"
+    stroke: "#FA8072"
+link_types:
+  undefined:
+    stroke: simple
+    color: "#777777"
+record_filters: []
+graph_background_color: "#1B1B1B"
+graph_highlight_color: "#e1e1e1"
+graph_highlight_on_hover: true
+graph_text_size: 7
+graph_arrows: true
+node_size_method: unique
+node_size: 10
+node_size_max: 20
+node_size_min: 2
+attraction_force: 200
+attraction_distance_max: 350
+attraction_vertical: 0
+attraction_horizontal: 0
+views: {}
+chronological_record_meta: created
+record_metas: [description, country, outside link]
+title: "Otletosphere"
+author: ""
+description: "The Otletosphere is a relational cartography of the personalities and institutions linked to Paul Otlet. It seeks to highlight Paul Otlet's strong involvement in international peace organisations as well as in bibliographical and documentary institutions. The implementation of his pacifist, documentary and feminist projects has enabled him to work with numerous scientific and artistic personalities with whom he has been able to maintain correspondence, make friends and collaborate. These relations are often known or attested by examination of the Mundaneum archives. The original Otletosphere was made by Clément Borel, Guillaume Brioudes, Jean David, Olivier Le Deuff and Arthur Perret. This version was made by Arthur Perret With the exception of the images, the contents are under a Creative Commons Attribution (CC BY) license."
+keywords: []
+link_symbol: ""
+csl: ''
+bibliography: ''
+csl_locale: ''
+css_custom: ./otletosphere.css
+devtools: false
+lang: en
+name: otletosphere.yml
